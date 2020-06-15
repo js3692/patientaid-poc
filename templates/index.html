@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Test</title>
+</head>
+<body>
+  <h1>PatientAid EBS POC</h1>
+  <table border=1>
+  <tr>
+    <th>
+      Table name
+    </th>
+  </tr>
+  {% for row in rows %}
+    <tr>
+      <td>{{ row[0] }}</td>
+    </tr>
+  {% endfor %}
+</body>
+</html>
